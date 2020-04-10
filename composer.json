@@ -1,0 +1,15 @@
+{
+    "name": "alex/games",
+    "authors": [
+        {
+            "name": "Alexone",
+            "email": "ravzan_@mail.ru"
+        }
+        
+    ],
+    "bin": [
+        "/brain-games"
+        ],
+        
+    "require": {}
+}
