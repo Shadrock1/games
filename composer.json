@@ -1,5 +1,7 @@
 {
     "name": "alex-per/games",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexone",
