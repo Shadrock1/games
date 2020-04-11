@@ -1,7 +1,6 @@
 {
     "name": "alex-per/games",
     "type": "project",
-    "description": "Logging for PHP 7.2.24",
     "license": "MIT",
     "authors": [
         {
@@ -10,10 +9,18 @@
         }
         
     ],
+
     "bin": [
-        "/brain-games",
-        "bin/php-package"
+        "bin/brain-games"
         ],
+
+        "autoload": {
+            "files": 
+             ["src/Cli.php"]
+          },
         
-    "require": {}
+        "require": {
+        "wp-cli/php-cli-tools": "^0.11.11",
+        "tightenco/collect": "^7.5"
+    }
 }
