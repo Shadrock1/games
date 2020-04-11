@@ -1,5 +1,6 @@
 {
     "name": "alex-per/games",
+    "description": "hexlet php",
     "type": "project",
     "license": "MIT",
     "authors": [
