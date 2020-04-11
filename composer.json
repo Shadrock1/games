@@ -1,6 +1,7 @@
 {
     "name": "alex-per/games",
     "type": "project",
+    "description": "Logging for PHP 7.2.24",
     "license": "MIT",
     "authors": [
         {
