@@ -15,8 +15,7 @@
          ["src/Cli.php"]
       },
     "bin": [
-        "/bin/brain-games",
-        "brain-games"
+        "bin/brain-games"
         ],
 
     "require": {
