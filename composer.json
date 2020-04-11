@@ -11,7 +11,8 @@
         
     ],
     "bin": [
-        "/brain-games"
+        "/brain-games",
+        "bin/php-package"
         ],
         
     "require": {}
