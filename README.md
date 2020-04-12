@@ -3,4 +3,4 @@
 
 <a href="https://codeclimate.com/github/Shadrock1/games/test_coverage"><img src="https://api.codeclimate.com/v1/badges/47a8ad4bce9470561a2b/test_coverage" /></a>
 
-(https://travis-ci.com/Shadrock1/games.svg?branch=master)  
+<img src="https://travis-ci.com/Shadrock1/games.svg?branch=master" />  
