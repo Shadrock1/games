@@ -12,12 +12,15 @@
     ],
     "autoload": {
         "files": 
-         ["src/Cli.php"]
+         ["src/Cli.php",
+          "src/Clieven.php" 
+        ]
       },
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even"
         ],
-        "scripts": {
+    "scripts": {
             "phpcs": "phpcs"
         },
 
