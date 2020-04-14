@@ -1,0 +1,32 @@
+<?php
+
+namespace BrainGames\kingfile;
+
+use function cli\line;
+use function cli\prompt;
+
+const ROUNDS = 3;
+
+function king($TASK, $gameData)
+{
+    line('Welcome to Brain Games!');
+    line($TASK . PHP_EOL);
+    $name = prompt('May I have your name?');
+    line("Hello, {$name}!" . PHP_EOL);
+    
+    for ($currentRound = 1; $currentRound <= ROUNDS; $currentRound += 1) {
+        [$question, $answer] = $gameData();
+
+        line("Question: {$question}");
+        $human = prompt("Your answer");
+
+         if ($human === $answer) {
+            line('Correct!');
+            } else {
+            line("'{$name}' is glupishka. correct answer was '{$answer}'.");
+            line("Пробуй еще, {$name}" . PHP_EOL);
+            return;
+        }
+    }
+    line("Congratulations, {$name}!");
+}
