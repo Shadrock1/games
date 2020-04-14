@@ -15,12 +15,14 @@
          ["src/Cli.php",
           "src/onlygames/Clieven.php",
           "src/onlygames/Clicalc.php",
+          "src/onlygames/Cligcd.php",
           "src/kingfile"
         ]
       },
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
+        "bin/brain-gcd",
         "bin/brain-calc"
         ],
     "scripts": {

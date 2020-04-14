@@ -4,7 +4,7 @@ namespace BrainGames\Clieven;
 
 use function BrainGames\kingfile\king;
 
-const TASK ='Answer "yes" if number even otherwise answer "no".' . PHP_EOL;
+const TASK ='Answer "yes" if number even otherwise answer "no".';
 
 function game()
 {
