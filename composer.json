@@ -17,6 +17,7 @@
           "src/onlygames/Clicalc.php",
           "src/onlygames/Cligcd.php",
           "src/onlygames/Cliprogression.php",
+          "src/onlygames/Cliprime.php",
           "src/kingfile"
         ]
       },
@@ -25,6 +26,7 @@
         "bin/brain-even",
         "bin/brain-gcd",
         "bin/brain-progression",
+        "bin/brain-prime",
         "bin/brain-calc"
         ],
     "scripts": {
